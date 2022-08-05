@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+    <title>NetFlix</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="baslik">NET<span>FLIX</span></h1>
+
+        <h2 class="aciklama">
+          Thank you for signing up to Netflix.Tell me about yourself
+        </h2>
+      </header>
+      <div class="big-div">
+        <div class="form">
+          <form action="result.html" method="GET" target="_blank">
+            <div class="input">
+              <label for="name">Name</label>
+              <br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter Your Name..."
+                class="input1"
+              />
+            </div>
+            <div class="input">
+              <label for="age">Age</label>
+              <br />
+              <input
+                type="number"
+                id="age"
+                name="age"
+                placeholder="Enter Your Age..."
+                class="input1"
+                min="18"
+              />
+            </div>
+            <div class="input">
+              <label for="email">Email</label>
+              <br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Your Email..."
+                class="input1"
+              />
+            </div>
+            <div class="input">
+              <label for="content">Content Type</label>
+              <br />
+              <select name="content" id="content" class="input1">
+                <option value="series">Series</option>
+                <option value="movies">Movies</option>
+                <option value="documentary">Documentary</option>
+                <option value="anime">Anime</option>
+              </select>
+            </div>
+            <div class="input">
+              <label for="movie">Movie Type</label>
+              <br />
+              <input type="checkbox" name="movie" id="action" value="action" />
+              <label for="action">Action</label>
+              <br />
+              <input type="checkbox" name="movie" id="comedy" value="comedy" />
+              <label for="comedy">Comedy</label>
+              <br />
+              <input
+                type="checkbox"
+                name="movie"
+                id="science-fiction"
+                value="science-fiction"
+              />
+              <label for="science-fiction">Science Fiction</label>
+              <br />
+              <input
+                type="checkbox"
+                name="movie"
+                id="anime"
+                value="anime"
+                checked
+              />
+              <label for="anime">Anime</label>
+              <br />
+            </div>
+            <div class="input">
+              <label for="gender">Gender</label>
+              <br />
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="male">Male</label>
+              <br />
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+              <br />
+              <input type="radio" name="gender" id="other" value="other" />
+              <label for="other">Other</label>
+            </div>
+            <div class="input">
+              <label for="fb">Feedback</label>
+              <br />
+              <textarea
+                name="feedback"
+                id="fb"
+                placeholder="Any Comment..."
+              ></textarea>
+            </div>
+            <div class="btn">
+              <input type="submit" value="Send" id="send-btn" />
+              <input type="reset" value="Reset" id="send-btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

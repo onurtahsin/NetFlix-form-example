@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+body{
+    background-image: url(./img/background_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1240px;
+    background-color: rgba(0,0,0,0.3);
+    height:1036px;
+    margin: 30px  100px 100px 100px;
+    
+}
+.baslik{
+    color: white;
+    font-size: 50px;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    vertical-align: center;
+    letter-spacing: 5px;
+}
+span{
+    color: red;
+}
+.aciklama{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Sorts Mill Goudy', serif;
+    color: white;
+}
+header{
+    text-align: center;
+}
+
+.big-div{
+    width: 500px;
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+    margin: auto;
+    padding:10px 40px;
+}
+#name,#age,#email,#content,#fb{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+/* .input1{
+    color: black;
+} */
+.input{
+    margin-top: 10px;
+    color: white;
+}
+.btn{
+    text-align: center;
+}
+#send-btn{
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #FF0000;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15.5px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    border: none;
+}
+textarea{
+    resize: none;
+}
+
+/* ! input number yukarı ve aşşağı ok işaretlerini kaldırmak için kullandığım code */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
